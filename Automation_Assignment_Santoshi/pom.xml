@@ -1,0 +1,121 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>assignment_pkg</groupId>
+  <artifactId>Automation_Assignment_Santoshi</artifactId>
+  <version>1.1</version>
+  <name>Assignment Test</name>
+  <description>Assignment of E-commerce Website</description>
+  
+  <dependencies>
+	 
+	 <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>31.0.1-jre</version>
+    </dependency>
+
+	 
+	 
+	 
+	 
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.9.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.12.1</version>
+</dependency>
+
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.9.0</version>
+</dependency>  
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.1</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <version>3.2.0</version>
+</dependency>
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>7.10.1</version>
+</dependency>
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.10.1</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.10.1</version>
+</dependency>
+
+
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-jvm</artifactId>
+    <version>1.2.5</version>
+    <type>pom</type>
+</dependency>
+
+<dependency>
+    <groupId>net.masterthought</groupId>
+    <artifactId>cucumber-reporting</artifactId>
+    <version>5.7.4</version>
+</dependency>
+
+
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>gherkin</artifactId>
+    <version>2.12.1</version>
+    <scope>provided</scope>
+</dependency>
+
+
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest-core</artifactId>
+    <version>2.1</version>
+</dependency>
+
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13</version>
+</dependency>
+
+
+
+
+
+ 	    
+  </dependencies>
+  
+  
+  
+</project>
