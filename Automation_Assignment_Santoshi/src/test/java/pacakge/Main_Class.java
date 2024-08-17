@@ -51,6 +51,12 @@ public WebDriver d;
     	      t.updateQuantity();
     	      t.removeProduct();
     	       
-       }      
+       }    
+       
+       @Test (priority=3)
+       public void Close()
+       {
+    	   d.close();
+       }
 
 }
